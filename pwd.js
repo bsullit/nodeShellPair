@@ -5,7 +5,6 @@ const pwdPrinter = process.stdin.on('data', (data) => {
        cmd = process.cwd();
    }
 
-   
     process.stdout.write('you typed: ' + cmd);
     process.stdout.write('\n prompt');
 });
